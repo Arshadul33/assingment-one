@@ -1,0 +1,109 @@
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+margin: 0;
+padding: 0;
+
+}
+h1{font-size: 60px;}
+.yollow-color{
+    color: orange;
+}
+.half-width h1{
+    border-left: tomato;
+    border-image-slice: 1;
+
+}
+.flexible-part{
+    display: flex;
+    margin: 150px;
+}
+
+
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(tomato, orange);
+    color: white;
+    font-size: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+
+}
+.half-width{
+    width: 50%;
+    border-left: 2px gray;
+     border-image: blue;
+    
+
+}
+     
+.half-width img{
+    width: 95%;
+}
+.flexible-part-1{
+    border: 5px;
+    display: flex;
+    box-sizing: border-box;
+    
+}
+.mission-area{
+    text-align: center;
+}
+
+
+.mission-1{
+    flex: 1;
+    width: 25%;
+    margin-right: 2px;
+
+    margin-left: 10px;
+    background-color: #99FFCC;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+
+    
+}
+        
+.mission-2{
+    flex: 1;
+    width: 25%;
+    margin-left: 10px;
+    background-color: #E5CCFF;
+    border-radius: 10px;
+
+    
+    
+
+}
+.mission-3{
+    flex: 1;
+    width: 25%;
+    margin-left: 10px;
+    
+    background-color:#CCCCFF ;
+    border-radius: 10px;
+    
+}
+.Documentation{
+    margin:auto;
+    padding: 0;
+    margin-top: 70px;
+}
+.Documentation-1{
+    margin:0;
+    padding: 30px;
+    margin-top: 70px;
+    margin-right: 200px;
+    margin-left: 30px;
+}
+footer{
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 20px;
+}
+footer h1{
+    font-size: 20px;
+}
